@@ -1,9 +1,14 @@
 # Surfs_up
 ## Purpose
-The Purpose of this analysis is to determine if the surf and ice cream shop will be sustainable year round in Oahu, specifically focusing on June and Decemeber stats.
+The Purpose of this analysis is to determine if the surf and ice cream shop will be sustainable year round in Oahu, specifically focusing on June and Decemeber stats. The temperature data for these months will be found by using Python, Pandas functions and methods, and SQLAlchemy. By filtering the date column of the measurements table in the data given, retrieving all temperatures for the month of June, then converting those temperatures into a list, creating a DataFrame from the list, then generating the summary statistics for deliverables. 
+
+### Deliverables
+* 1st, determine the summary statistics for month of June
+* 2nd, determine the summary statistics for month of December
+* 3rd, Analysis
 
 ## Results
-  # June temps
+  # June temps found
     # Mean 75 Deg
     # Low 64 Deg
     # High 85 Deg
@@ -11,7 +16,7 @@ The Purpose of this analysis is to determine if the surf and ice cream shop will
 <img width="154" alt="June_Temps" src="https://user-images.githubusercontent.com/86068655/147616776-7fca5ea9-865c-4a30-96fb-d9dc02d0e9af.png">
 
 
-  # December temps
+  # December temps found
     # Mean 71 Deg 
     # Low 56 Deg
     # High 83 Deg
